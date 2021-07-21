@@ -610,8 +610,8 @@ body {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
-    color: var(--secondary-color)
-    /* rgba(255, 255, 255, 0.6);*/
+    color: var(--secondary-color);
+    margin-right: 12px;
 }
 .footer-button {
     display: inline-flex;
@@ -625,9 +625,10 @@ body {
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--secondary-color);
-    border: none;
+    
     cursor: pointer;
     margin-left: 12px;
+    border: none;
     transition: box-shadow var(--animation), background var(--animation);
 }
 .footer-button:focus,
