@@ -833,10 +833,12 @@ body {
 .modal-form-input-wrapper{
     position: relative;
     display: block;
-    margin-top: 4px;
+    /*margin-top: 4px;*/
 }
 .modal-label{
     display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 .modal-form-input{
     width: 100%;
